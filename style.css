@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap:50px;
+    background-color: #212121;
+}
+
+body{
+    background-color: #212121;
+}
+
+.LogoNeat{
+    width: 300px;
+}
+
+.iconInsta{
+    width: 24px;
+}
+
+.iconCart{
+    width: 24px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    margin-bottom: 24px;
+}
+
+.menuItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 24px;
+    color: floralwhite;
+
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 52px;
+    background-color: #25242c;
+    color: floralwhite;
+}
+
+.imageview{
+    background-color: #212121;
+}
+
+.vitrine{
+    display: flex;
+    background-color: #25242c;
+    color: floralwhite;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.imagemDaCamiseta1{
+    margin-top: 24px;
+    width: 350px;
+    box-shadow: 3px 3px 5px #131313;
+}
+
+.imagemDaCamiseta2{
+    margin-top: 24px;
+    width: 350px;
+    box-shadow: 3px 3px 5px #131313;
+}
+
+.nomeCamiseta1{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nomeCamiseta2{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+.SobreNos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    background-color: #25242c;
+    color: floralwhite;
+}
+
+.titulo-sobreNos{
+    display: flex;
+    padding: 24px;
+}
+
+.p1{
+    display: flex;
+    width: 65%;
+    padding: 10px;
+    line-height: 1.875em;
+    text-align: center;
+    font-size: 15px;
+}
+
+.imagemMontada{
+    width: 100%;
+}
+
+.Contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    background-color: #25242c;
+    color: floralwhite;
+}
+
+.formcontrol{
+    width: 50%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    outline: none;
+    padding-bottom: 24px;
+}
+
+.box{
+    width: 50%;
+    padding: 50px;
+    background: none;
+    color: #ddd;
+}
+
+.btEnviar{
+    background-color: #414141;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 24px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #303030;
+  }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: floralwhite;
+}
