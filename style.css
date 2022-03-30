@@ -102,16 +102,17 @@ body{
 
 .titulo-sobreNos{
     display: flex;
-    padding: 24px;
+    padding: 48px;
+    font-size: xx-large;
 }
 
 .p1{
     display: flex;
-    width: 65%;
+    width: 50%;
     padding: 10px;
     line-height: 1.875em;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .imagemMontada{
@@ -122,9 +123,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px;
+    padding: 60px;
     background-color: #25242c;
     color: floralwhite;
+    font-size: 40px;
 }
 
 .formcontrol{
@@ -166,4 +168,41 @@ footer{
     flex-direction: column;
     align-items: center;
     color: floralwhite;
+}
+
+.perguntasFrequentes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    background-color: #25242c;
+    color: floralwhite;
+}
+
+.titlePF{
+    margin-bottom: 75px;
+    font-size: 38px;
+}
+
+.row1{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.row2{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.pergunta4{
+padding-left: 40%;
+}
+
+.pergunta2{
+padding-left: 25%;
 }
