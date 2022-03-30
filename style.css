@@ -1,3 +1,4 @@
+/*Reset de css */
 *{
     margin: 0;
     padding: 0;
@@ -20,14 +21,6 @@ body{
 
 .LogoNeat{
     width: 300px;
-}
-
-.iconInsta{
-    width: 24px;
-}
-
-.iconCart{
-    width: 24px;
 }
 
 .menu{
@@ -53,10 +46,6 @@ body{
     padding: 52px;
     background-color: #25242c;
     color: floralwhite;
-}
-
-.imageview{
-    background-color: #212121;
 }
 
 .vitrine{
@@ -89,7 +78,6 @@ body{
     padding-top: 24px;
     padding-bottom: 24px;
 }
-
 
 .SobreNos{
     display: flex;
@@ -159,7 +147,7 @@ body{
     margin-top: 24px;
   }
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #303030;
   }
 
@@ -205,4 +193,12 @@ padding-left: 40%;
 
 .pergunta2{
 padding-left: 25%;
+}
+
+.resposta{
+    width: 100%;
+}
+
+.neatImage{
+    width: 100%
 }
